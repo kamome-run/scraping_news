@@ -1,9 +1,16 @@
-## ニュースサイトのスクレイピングをするコード
+## ニュースサイトのスクレイピングをするツール
 
-ニュースサイトのスクレイピングをする.ipynb形式のファイルを載せています。
+ニュースサイトのスクレイピングをする.py形式のファイルを載せています。
 
 ### 現在載せている.ipynb形式のファイル
-- [読売オンラインのウクライナ情勢のニュースのタイトルとURLを取得](bs_get_yomiuri_ukraine.ipynb)
-- [Yahoo!JAPANの主要ニュースのタイトルとURLを取得する](bs_get_Yahoo_news.ipynb)
-- [Yahoo!JAPANの主要ニュースの要約ページからタイトルとURLを取得する](bs_get_Yahoo_news_summary.ipynb)
-- [Yahoo!JAPANの主要ニュースの全文のタイトルとURL、記事を取得](bs_get_Yahoo_news_article.ipynb)
+- [読売オンラインのウクライナ情勢のニュースのタイトルとURLを取得](get_yomiuri_ukraine.py)
+- [Yahoo!JAPANの主要ニュースのタイトルとURLを取得する](get_Yahoo_news.py)
+- [Yahoo!JAPANの主要ニュースの要約ページからタイトルとURLを取得する](get_Yahoo_news_summary.py)
+- [Yahoo!JAPANの主要ニュースの全文のタイトルとURL、記事を取得](get_Yahoo_news_article.py)
+
+### リリースノート
+#### 2024
+- **7/10** 読売オンラインのウクライナ情勢のニュースを取得するスクリプトをリリースしました。
+- **7/12** Yahoo!ニュースの主要記事を取得するスクリプトをリリースしました。
+- **7/17** Yahoo!JAPANの主要ニュースのURLと記事を取得して表示するスクリプトをリリースしました。
+- **7/30** 拡張子を.ipynbから.pyに変更しました。それに伴い、.ipynb形式のファイルは全て削除しました。
